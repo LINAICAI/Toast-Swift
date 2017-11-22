@@ -11,8 +11,7 @@ import Toast
 import SnapKit
 class ViewController: UIViewController {
     @objc func addImage() -> Void {
-        let toast = Toast("数据提交成功")
-        
+        let toast = Toast("Success")
         let imageView = UIImageView(image: UIImage(named: "success")?.withRenderingMode(UIImageRenderingMode.alwaysTemplate))
         imageView.tintColor = UIColor.white
         let view = toast.view;
@@ -29,20 +28,17 @@ class ViewController: UIViewController {
             make.right.equalToSuperview().offset(-toast.padding)
             make.bottom.equalToSuperview().offset(-toast.padding)
         }
-        
-        toast.gravity = Toast.Gravity.center
-        toast.show(self.view, Toast.Duration.short)
+        toast.show(self.view)
     }
     @objc func custom() -> Void {
         let toast = Toast()
         let custom:UIView = UIView()
         let label = UILabel()
-        label.text = "我是自定义的视图喔~~~"
+        label.text = "Custom Toast"
         label.textColor = UIColor.white
         custom.addSubview(label)
         label.snp.makeConstraints { (make) in
-            make.edges.equalTo(UIEdgeInsetsMake(20, 20, 20, 20))
-            
+            make.edges.equalTo(UIEdgeInsetsMake(toast.padding, toast.padding, toast.padding, toast.padding))
         }
         custom.backgroundColor = UIColor.black
         toast.view = custom
