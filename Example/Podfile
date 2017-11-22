@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'Toast_Example' do
-  pod 'Toast', :path => '../'
+  pod 'Toast-Swift-Android-Like', :path => '../'
 
   target 'Toast_Tests' do
     inherit! :search_paths

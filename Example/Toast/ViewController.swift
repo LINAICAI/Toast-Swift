@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Toast
+import Toast_Swift_Android_Like
 import SnapKit
 class ViewController: UIViewController {
     @objc func addImage() -> Void {

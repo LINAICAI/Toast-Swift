@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import Toast
+import Toast_Swift_Android_Like
 
 class Tests: XCTestCase {
     
