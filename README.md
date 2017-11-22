@@ -1,9 +1,9 @@
 # Toast-Swift
 
-[![CI Status](http://img.shields.io/travis/Nice/Toast.svg?style=flat)](https://travis-ci.org/Nice/Toast)
-[![Version](https://img.shields.io/cocoapods/v/Toast.svg?style=flat)](http://cocoapods.org/pods/Toast)
-[![License](https://img.shields.io/cocoapods/l/Toast.svg?style=flat)](http://cocoapods.org/pods/Toast)
-[![Platform](https://img.shields.io/cocoapods/p/Toast.svg?style=flat)](http://cocoapods.org/pods/Toast)
+[![CI Status](http://img.shields.io/travis/Nice/Toast.svg?style=flat)](https://travis-ci.org/Nice/Toast-Swift-Android-Like)
+[![Version](https://img.shields.io/cocoapods/v/Toast.svg?style=flat)](http://cocoapods.org/pods/Toast-Swift-Android-Like)
+[![License](https://img.shields.io/cocoapods/l/Toast.svg?style=flat)](http://cocoapods.org/pods/Toast-Swift-Android-Like)
+[![Platform](https://img.shields.io/cocoapods/p/Toast.svg?style=flat)](http://cocoapods.org/pods/Toast-Swift-Android-Like)
 
 ## Example
 
