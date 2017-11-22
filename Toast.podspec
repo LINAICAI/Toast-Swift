@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Toast-Swift-Andriod-Like'
+  s.name             = 'Toast-Swift-Android-Like'
   s.version          = '0.1.0'
   s.summary          = '仿照安卓系统Toast的写法完成的一个属于iOS系统并且比较好扩展的通用Toast组件.'
 
