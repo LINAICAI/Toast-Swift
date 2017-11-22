@@ -9,29 +9,33 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-Before usage
-`import Toast`
+### Before usage
+```ruby
+import Toast
+```
 
-Basic usage
-`Toast("data submit success").show(self.view)
+### Basic usage
+```ruby
+Toast("data submit success").show(self.view)
 Toast("data submit success").show(self.view, Toast.Duration.short)
 Toast("data submit success").show(self.view, Toast.Duration.long)
-Toast("data submit success").show(self.view, Toast.Duration.custom(5.0))`
-
-More property
-`        let toast = Toast("data submit success")
+Toast("data submit success").show(self.view, Toast.Duration.custom(5.0))
+```
+### More property
+```ruby
+let toast = Toast("data submit success")
 toast.gravity = .center
 toast.cornerRadius = 10
 toast.duration = .long
 toast.offset = CGPoint.zero
 toast.margin = 30
 toast.padding = 20
-toast.show(self.view)`
-
-Advanced usage
+toast.show(self.view)
+```
+### Advanced usage
 you can modify toast view by using(Add image to Toast):
-
-`let toast = Toast("Success")
+```ruby
+let toast = Toast("Success")
 let imageView = UIImageView(image: UIImage(named: "success")?.withRenderingMode(UIImageRenderingMode.alwaysTemplate))
 imageView.tintColor = UIColor.white
 let view = toast.view;
@@ -48,11 +52,13 @@ make.left.equalToSuperview().offset(toast.padding)
 make.right.equalToSuperview().offset(-toast.padding)
 make.bottom.equalToSuperview().offset(-toast.padding)
 }
-toast.show(self.view)`
+toast.show(self.view)
+```
 
-Customize usage
+### Customize usage
 you can customize toast view by using(use your view add to Toast):
-`        let toast = Toast()
+```ruby
+let toast = Toast()
 let custom:UIView = UIView()
 let label = UILabel()
 label.text = "Custom Toast"
@@ -64,13 +70,15 @@ make.edges.equalTo(UIEdgeInsetsMake(toast.padding, toast.padding, toast.padding,
 custom.backgroundColor = UIColor.black
 toast.view = custom
 toast.gravity = Toast.Gravity.center
-toast.show(view, Toast.Duration.short)`
+toast.show(view, Toast.Duration.short)
+```
 
 ## Requirements
+```ruby
 iOS8+
 Swift 4
 Xcode9+
-
+```
 ## Installation
 
 Toast is available through [CocoaPods](http://cocoapods.org). To install
